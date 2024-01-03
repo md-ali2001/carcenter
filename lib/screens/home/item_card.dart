@@ -1,7 +1,7 @@
 import 'package:carcenter/models/car.dart';
 import 'package:flutter/material.dart';
 
-import '../../../constants.dart';
+import '../../constants.dart';
 
 class ItemCard extends StatelessWidget {
   final Car? car;

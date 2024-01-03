@@ -18,7 +18,7 @@ class Dealer{
 
 });
 
-  factory Dealer.fromMap(Map<String, dynamic> data, String id){
+  factory Dealer.fromMap(Map<String, dynamic> data, String Id){
 
     return Dealer(
       title: data['title'] ?? '',

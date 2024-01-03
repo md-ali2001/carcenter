@@ -2,7 +2,7 @@ import 'package:carcenter/models/car.dart';
 import 'package:flutter/material.dart';
 import 'package:carcenter/constants.dart';
 import 'package:carcenter/screens/details/components/details_screen.dart';
-import 'package:carcenter/screens/home/carscreen/item_card.dart';
+import 'package:carcenter/screens/home/item_card.dart';
 import 'package:provider/provider.dart';
 
 class CarBody extends StatelessWidget {

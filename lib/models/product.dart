@@ -19,10 +19,10 @@ class Product {
     required this.color,
   });
 
-  factory Product.fromMap(Map<String, dynamic> data, String Id){
+  factory Product.fromMap(Map<String, dynamic> data, String id){
 
     return Product(
-        id:  Id ,
+        id:  id ,
         image: data['image'] ?? '',
         title: data['title'] ?? '' ,
         price: data['price'] ?? 0,

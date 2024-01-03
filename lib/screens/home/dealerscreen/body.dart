@@ -3,7 +3,7 @@ import 'package:carcenter/models/dealer.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:carcenter/constants.dart';
-import 'package:carcenter/screens/home/dealerscreen/item_card.dart';
+import 'package:carcenter/screens/home/item_card.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 
@@ -47,7 +47,7 @@ class Body extends StatelessWidget {
                           crossAxisSpacing: kDefaultPaddin,
                       ),
                   itemBuilder: (context, index) => ItemCard(
-                    dealer: dealers[index],
+                    //dealer: dealers[index],
                     press: () => Navigator.push(
                       context,
                       MaterialPageRoute(
